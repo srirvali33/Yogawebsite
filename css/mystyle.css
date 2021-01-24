@@ -15,9 +15,10 @@ body{
     justify-content: center
 }
 
-.navbar1{
+.header{
 
     /* background-color: rgb(178, 203, 248); */
+    position: fixed;
 }
 
 .right-area{
@@ -446,4 +447,51 @@ footer .footer-bottom-area .widget .we-accept ul li:first-child {
 
 footer .footer-bottom-area .widget .we-accept ul li {
     display: inline-block;
+}
+
+iframe{
+    width: 1051px;
+    height: 502px;
+    margin-top: 60px;
+}
+
+.contact{
+    
+    text-align: center; 
+    padding-bottom: 3px;
+    padding-top: 18px;
+    margin-top: 11px;
+    color: #003a62;
+}
+
+.formelements,.con1{
+    margin: 0 auto;
+    
+}
+/* .con1{
+    margin-left: 5px;
+} */
+
+.formgrid{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formsubmit {
+    background-color: #003a62;
+    color: #f0e3e3;
+    margin-left: 40%;
+}
+
+.contact .fa-heart{
+
+    color: rgba(230, 9, 9, 0.925);
+    cursor: pointer;
+    
+}
+
+.fa-heart:hover{
+
+    transform: scale(1.5); 
 }
