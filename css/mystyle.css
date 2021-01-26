@@ -468,9 +468,8 @@ iframe{
     margin: 0 auto;
     
 }
-/* .con1{
-    margin-left: 5px;
-} */
+
+   
 
 .formgrid{
     
@@ -495,3 +494,319 @@ iframe{
 
     transform: scale(1.5); 
 }
+
+.trainer img{
+
+    height: 40px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.trainer #trainer{
+    margin-left: 40%;
+}
+
+.page-top-section {
+    height: 478px;
+    position: relative;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.trainers-page-section.spad {
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
+
+.trainers-page-section .trainer-item {
+    margin-bottom: 90px;
+}
+
+.trainer-item {
+    display: block;
+    position: relative;
+    padding: 70px 40px 40px;
+    -webkit-box-shadow: 0px 5px 6px rgb(72 105 114 / 15%);
+    box-shadow: 0px 5px 6px rgb(72 105 114 / 15%);
+    border-radius: 14px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.trainer-item .ti-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.trainer-item .ti-text {
+    max-width: 190px;
+    position: relative;
+    z-index: 99;
+    background: #fff;
+}
+
+.trainer-item .ti-social a {
+    color: purple;
+}
+
+.classes img{
+
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.classes-page-section.spad {
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
+
+.classes-top {
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.classes-item-warp {
+    padding-right: 20px;
+    margin-bottom: 55px;
+}
+
+.classes-item {
+    text-align: center;
+    background: #fff;
+    padding-top: 40px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 5px 6px rgb(72 105 114 / 15%);
+    box-shadow: 0px 5px 6px rgb(72 105 114 / 15%);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.classes-item .ci-img img {
+    width: 280px;
+    height: 280px;
+    border-radius: 30%;
+    margin: 0 auto 25px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.classes-item .ci-text {
+    padding: 0 15px 10px;
+}
+
+.classes-item h4 {
+    color: purple;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.classes-item .ci-meta {
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.classes-item .ci-meta i {
+    color: purple;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.classes-item p {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+.classes-item .ci-bottom {
+    border-top: 1px solid #e6e6e6;
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.classes-item .ci-author {
+    display: inline-block;
+}
+
+.classes-item .ci-author img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.classes-item .ci-author .author-text {
+    overflow: hidden;
+    color: purple;
+}
+
+.sb-widget {
+    margin-bottom: 50px;
+}
+
+.sb-widget .sb-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.classes-filter .circle-select {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.circle-select {
+    height: 49px;
+    line-height: 47px;
+    min-width: 234px;
+    padding-left: 29px;
+    border-radius: 41px;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+}
+
+.classes-filter .circle-select {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.nice-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+}
+
+.nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(68 68 68 / 11%);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+    -ms-transform: scale(0.75) translateY(-21px);
+    transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9;
+}
+
+.circle-select .current {
+    font-size: 14px;
+    color: #999999;
+}
+
+.circle-select .list {
+    left: auto;
+    right: 0;
+}
+
+.nice-select .option.selected {
+    font-weight: bold;
+}
+
+
+
+.form {
+    display: block;
+    margin-top: 0em;
+}
+
+.nice-select .option {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.list li {
+    display: list-item;
+}
+
+.list.ul{
+    
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    
+}
+
+select {
+    
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font: 400 13.3333px Arial;
+}
+
