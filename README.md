@@ -1,1 +1,1 @@
-A real time Yoga website devolped by bootsrap and JS.
+A real time Yoga website devolped by bootsrap,Jquery and JS.
