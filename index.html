@@ -8,14 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="css/mystyle.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
   
 </head>
 
@@ -68,6 +68,7 @@
             <h3>to the self."</h3>
           </div>
         </div>
+
         <div class="carousel-item ">
           <img src="images/slider1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption s2">
@@ -78,11 +79,13 @@
         <div class="carousel-item">
           <img src="images/slider2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption s2 s3" style="font-family:open-sans;">
-            <!-- <h3>Master your Breath</h3><br> -->
+            
 
 
           </div>
         </div>
+
+
       </div>
       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,7 +102,7 @@
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 hidden-xs">
           <div class="about-images">
-            <a href="about.html"><img src="images/about.jpg" alt=""></a>
+            <a href="about.html"><span class="addimage"><img src="images/about.jpg" alt=""></span></a>
           </div>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -127,7 +130,7 @@
               <div class="overley">
                 <div class="informations">
                   <span> <i class="fa fa-trophy fa-lg"></i></span>
-                  <h1 class="about-counter">120</h1>
+                  <h1 class="counter" data-count="120">120</h1>
                   <p>Gold Medals</p>
                 </div>
               </div>
@@ -140,7 +143,7 @@
               <div class="overley">
                 <div class="informations">
                   <span><i class="fa fa-user-circle-o fa-lg"></i></span>
-                  <h1 class="about-counter">20</h1>
+                  <h1 class="counter" data-count="20">20</h1>
                   <p>Training Room</p>
                 </div>
               </div>
@@ -153,7 +156,7 @@
               <div class="overley">
                 <div class="informations">
                   <span><i class="fa fa-lightbulb-o fa-2x"></i></span>
-                  <h1 class="about-counter">30</h1>
+                  <h1 class="counter" data-count="30">30</h1>
                   <p>Years Experience</p>
                 </div>
               </div>
@@ -327,12 +330,13 @@
 <br>
 <br>
 
-          <!-- Gallery ends here -->
+<!-- Gallery ends here -->
 
  <!-- Footer start -->
 
  <footer id="footer">
   <div class="footer-area">
+    <div class="back-to-top" style="display: none;"><img src="images/uparrow.svg" alt=""></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 hidden-xs child1">
@@ -480,7 +484,13 @@
 
 <!-- Footer end -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
 <script src="js/index.js"></script>
+
+
 </body>
 
 </html>

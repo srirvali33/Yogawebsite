@@ -50,7 +50,10 @@ div.carousel-caption {
     height:100%;
     top: 20%;
 }
-
+div.carousel-caption h3{
+    position: relative;
+    animation: fadeInLeft 1000ms ease-in-out;
+}
 div.carousel-caption.s2 {
     position: absolute;
     z-index: 2;
@@ -92,6 +95,10 @@ div.carousel-caption.s3 h3{
     padding-top: 40px;
 }
 
+.home-about-area .about-images .addimage{
+    display: none;
+    transition: 6000;
+}
 .home-about-area .ab-count{
     background-color: white;
     grid-template-columns: auto auto auto auto;
@@ -374,6 +381,7 @@ border-radius: 50%;
 
 .wwd-text h3 {
     color: purple;
+    
 }
 
 .aligncenter, img.aligncenter {
@@ -390,6 +398,8 @@ border-radius: 50%;
     font-size: 16px;
 
 }
+
+
 
 .footer-area .row .child1,.footer-area .row .child3{
     margin-top: 40px;
@@ -810,3 +820,36 @@ select {
     font: 400 13.3333px Arial;
 }
 
+.back-to-top {
+    display: none;
+    position: fixed;
+    width: 49px;
+    /* height: 49px; */
+    right: 55px;
+    bottom: 190px;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    background-image: linear-gradient(purple, rgb(224, 224, 213));
+}
+
+.back-to-top img {
+
+    
+    height: 60px;
+    width: 30px;
+    
+
+}
+
+.counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
