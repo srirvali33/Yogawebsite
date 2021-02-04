@@ -3,7 +3,7 @@ $(document).ready(function () {
  
     $(window).scroll(function () {
       
-      $(".home-about-area .about-images .addimage").fadeIn();
+      $(".home-about-area .about-images .addimage").fadeIn(1000);
         
       $('.home-about-area .about-images .addimage').css('display', 'flex');
         

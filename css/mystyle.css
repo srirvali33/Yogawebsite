@@ -97,8 +97,8 @@ div.carousel-caption.s3 h3{
 
 .home-about-area .about-images .addimage{
     display: none;
-    transition: 6000;
 }
+
 .home-about-area .ab-count{
     background-color: white;
     grid-template-columns: auto auto auto auto;
@@ -853,3 +853,15 @@ select {
     animation-duration: 1s;
     animation-delay: 0s;
   }
+
+  .benefits-section .card-img-top, .wwd-section.spad.set-bg, .trainers-page-section .trainer-item .ti-img, .trainers-page-section .trainer-item .ti-text,.location .formgrid, .classes-top .classes-item-warp{
+      display: none;
+  }
+
+  .home-about-area .about-images .addaboutimage{
+
+    opacity:0.4;
+
+  }
+
+ 
